@@ -11,12 +11,38 @@ Os exercícios serão adicionados gradualmente através do fluxo de colaboraçã
 5. revisão;
 6. merge.
 
-## Exercícios planejados
+## Exercícios
 
-- FizzBuzz
-- Verificador de palíndromo
-- Sequência de Fibonacci
-- Outros exercícios sugeridos através de Issues
+### Implementados
+
+- [x] FizzBuzz
+
+### Planejados
+
+- [ ] Verificador de palíndromo
+- [ ] Sequência de Fibonacci
+- [ ] Outros exercícios sugeridos através de Issues
+
+## FizzBuzz
+
+O exercício FizzBuzz percorre uma sequência de números e aplica as seguintes regras:
+
+- múltiplos de 3 são representados por `Fizz`;
+- múltiplos de 5 são representados por `Buzz`;
+- múltiplos de 3 e 5 são representados por `FizzBuzz`;
+- os demais números são exibidos normalmente.
+
+Arquivo:
+
+```text
+fizzbuzz.py
+```
+
+Para executar:
+
+```text
+python fizzbuzz.py
+```
 
 ## Contribuindo
 
