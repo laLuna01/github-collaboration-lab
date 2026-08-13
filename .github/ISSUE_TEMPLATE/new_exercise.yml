@@ -1,0 +1,49 @@
+name: Novo exercício
+description: Sugira um novo exercício de lógica para o projeto
+title: "[EXERCISE] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir um novo exercício!
+
+  - type: input
+    id: exercise
+    attributes:
+      label: Nome do exercício
+      description: Informe um nome curto e descritivo.
+      placeholder: Ex. Verificador de números primos
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: Explique o objetivo do exercício e o comportamento esperado.
+      placeholder: Descreva o problema que deve ser resolvido.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Linguagem sugerida
+      options:
+        - Python
+        - JavaScript
+        - Java
+        - Outra
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Exemplos
+      description: Adicione exemplos de entrada e saída, se necessário.
+      placeholder: |
+        Entrada: ...
+        Saída: ...

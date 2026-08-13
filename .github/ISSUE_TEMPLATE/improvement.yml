@@ -1,0 +1,40 @@
+name: Sugestão de melhoria
+description: Proponha uma melhoria em um exercício, documentação ou estrutura do projeto
+title: "[IMPROVEMENT] "
+labels:
+  - enhancement
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área da melhoria
+      options:
+        - Exercício
+        - Documentação
+        - Estrutura do projeto
+        - Fluxo de colaboração
+        - Outra
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Situação atual
+      description: Explique brevemente como funciona atualmente.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Melhoria proposta
+      description: Explique o que você gostaria de alterar.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivação
+      description: Por que essa mudança seria útil para o projeto?
